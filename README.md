@@ -1,9 +1,10 @@
 # THALES_CTS_SAMPLE_IN_CPP_C
 
+## This is an example for doing token/detoken by using C/C++
 
-Tested on my MAC OS in Apple M1 - 14.1.1 (23B81) by using CLion IDE (https://www.jetbrains.com/clion/download)
+Tested on my MAC OS with Apple M1 - 14.1.1 (23B81) by using CLion IDE (https://www.jetbrains.com/clion/download)
 
-Before test, please make sure below library are installed.
+Before test, please make sure below libraries are installed.
 
 1. jsoncpp
 2. curl
@@ -26,10 +27,18 @@ index = [4] token = [zp3Y VZ od suyLr MGPr HzSl CN BIpE4 b]
 
 > # DeToken
 ```
+index = [0] data = [This is my house that want to token 0] 
+index = [1] data = [This is my house that want to token 1] 
+index = [2] data = [This is my house that want to token 2] 
+index = [3] data = [This is my house that want to token 3] 
+index = [4] data = [This is my house that want to token 4] 
+```
+
+> # DeToken With Masking 
+```
 index = [0] data = [This is ** ***** **** **** ** ****n 0] 
 index = [1] data = [This is ** ***** **** **** ** ****n 1] 
 index = [2] data = [This is ** ***** **** **** ** ****n 2] 
 index = [3] data = [This is ** ***** **** **** ** ****n 3] 
 index = [4] data = [This is ** ***** **** **** ** ****n 4] 
 ```
-
