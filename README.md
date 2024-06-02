@@ -1,7 +1,7 @@
 # THALES_CTS_SAMPLE_IN_CPP_C
 
 
-Tested on my MAC OS in Apple M1 - 14.1.1 (23B81) by using CLion IDE
+Tested on my MAC OS in Apple M1 - 14.1.1 (23B81) by using CLion IDE (https://www.jetbrains.com/clion/download)
 
 Before test, please make sure below library are installed.
 
