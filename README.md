@@ -13,6 +13,11 @@ You may install by using `brew install jsoncpp` or `brew install curl`.
 - https://formulae.brew.sh/formula/jsoncpp
 - https://formulae.brew.sh/formula/curl
 
+
+Make sure all compiler command also added for those libraries.
+it defined in `CMakelists.txt` file
+
+
 Below is the result when we are doing a token/detoken.
 
 > # Token
