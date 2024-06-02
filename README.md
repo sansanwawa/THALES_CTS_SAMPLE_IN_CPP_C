@@ -8,5 +8,8 @@ Before test, please make sure below library are installed.
 1. jsoncpp
 2. curl
 
-You may install by using brew install jsoncpp (https://formulae.brew.sh/formula/jsoncpp) and brow install curl (https://formulae.brew.sh/formula/curl#default).
+You may install by using `brew install jsoncpp` or `brew install curl`.
+- https://formulae.brew.sh/formula/jsoncpp
+- https://formulae.brew.sh/formula/curl
+
 
